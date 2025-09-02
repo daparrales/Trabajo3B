@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_351c2534dbe21bba4c20869c24771b95 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_351c2534dbe21bba4c20869c24771b95" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_351c2534dbe21bba4c20869c24771b95 = L.map(
+                "map_351c2534dbe21bba4c20869c24771b95",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_979f21de1dde19c8bc4f18ea30b8fa7e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_979f21de1dde19c8bc4f18ea30b8fa7e.addTo(map_351c2534dbe21bba4c20869c24771b95);
+        
+    
+            var marker_cluster_80566119965466c7c209856d8b9dd9a9 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_2e2b702a63cceb9a47281c5c78c531ef = L.marker(
+                [37.0902, -95.7129],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_28666048dfd36be5c8db805111b74dd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6544f2af5d6e103532e1eb7b7024fc71 = $(`<div id="html_6544f2af5d6e103532e1eb7b7024fc71" style="width: 100.0%; height: 100.0%;">HealthTech Solutions (Healthcare)<br>Tipo de ataque: Ransomware<br>Impacto financiero: $125.0M</div>`)[0];
+                popup_28666048dfd36be5c8db805111b74dd5.setContent(html_6544f2af5d6e103532e1eb7b7024fc71);
+            
+        
+
+        marker_2e2b702a63cceb9a47281c5c78c531ef.bindPopup(popup_28666048dfd36be5c8db805111b74dd5)
+        ;
+
+        
+    
+    
+            var marker_b69af7f8e2a167aceaeabe34580dab3b = L.marker(
+                [55.3781, -3.436],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_f3dfd4dc5bad4cbb80b980a2fbb77b3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25861fd8411d4b52359494cf794893e2 = $(`<div id="html_25861fd8411d4b52359494cf794893e2" style="width: 100.0%; height: 100.0%;">GlobalBank Corp (Financial)<br>Tipo de ataque: Data_Breach<br>Impacto financiero: $89.0M</div>`)[0];
+                popup_f3dfd4dc5bad4cbb80b980a2fbb77b3d.setContent(html_25861fd8411d4b52359494cf794893e2);
+            
+        
+
+        marker_b69af7f8e2a167aceaeabe34580dab3b.bindPopup(popup_f3dfd4dc5bad4cbb80b980a2fbb77b3d)
+        ;
+
+        
+    
+    
+            var marker_24f2ea9490fa255db719613c143e7bab = L.marker(
+                [56.1304, -106.3468],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_6f8b3d407ac2bf96c147333496cfcc44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5eb9e318721ca9409bffd0b4113a1172 = $(`<div id="html_5eb9e318721ca9409bffd0b4113a1172" style="width: 100.0%; height: 100.0%;">EduPlatform Inc (Education)<br>Tipo de ataque: Ransomware<br>Impacto financiero: $34.5M</div>`)[0];
+                popup_6f8b3d407ac2bf96c147333496cfcc44.setContent(html_5eb9e318721ca9409bffd0b4113a1172);
+            
+        
+
+        marker_24f2ea9490fa255db719613c143e7bab.bindPopup(popup_6f8b3d407ac2bf96c147333496cfcc44)
+        ;
+
+        
+    
+    
+            var marker_8b23dd1815b273d836c6aa4801f13dbb = L.marker(
+                [-25.2744, 133.7751],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_f26074c6c34b85ca29c00d79ef7a9874 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9b5c85a7977eb650f9b7f8a504e1f5d = $(`<div id="html_b9b5c85a7977eb650f9b7f8a504e1f5d" style="width: 100.0%; height: 100.0%;">RetailGiant Ltd (Retail)<br>Tipo de ataque: Payment_Fraud<br>Impacto financiero: $67.8M</div>`)[0];
+                popup_f26074c6c34b85ca29c00d79ef7a9874.setContent(html_b9b5c85a7977eb650f9b7f8a504e1f5d);
+            
+        
+
+        marker_8b23dd1815b273d836c6aa4801f13dbb.bindPopup(popup_f26074c6c34b85ca29c00d79ef7a9874)
+        ;
+
+        
+    
+    
+            var marker_4b0e8b3f5324b95ef83c60f8b60dccb1 = L.marker(
+                [51.1657, 10.4515],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_26441739b7657873e8c17596187c7a77 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b7e1a1f7160181f1581f8dab5643c19 = $(`<div id="html_1b7e1a1f7160181f1581f8dab5643c19" style="width: 100.0%; height: 100.0%;">TechStartup Pro (Technology)<br>Tipo de ataque: Insider_Threat<br>Impacto financiero: $12.3M</div>`)[0];
+                popup_26441739b7657873e8c17596187c7a77.setContent(html_1b7e1a1f7160181f1581f8dab5643c19);
+            
+        
+
+        marker_4b0e8b3f5324b95ef83c60f8b60dccb1.bindPopup(popup_26441739b7657873e8c17596187c7a77)
+        ;
+
+        
+    
+    
+            var marker_4844d60872f71bc663c88e671e24ea49 = L.marker(
+                [36.2048, 138.2529],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_c65f1e8789667e768de16c78085105f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05aa14f3eb92112b77c6af626b8d2371 = $(`<div id="html_05aa14f3eb92112b77c6af626b8d2371" style="width: 100.0%; height: 100.0%;">ManufacturingCorp (Manufacturing)<br>Tipo de ataque: Industrial_Espionage<br>Impacto financiero: $234.5M</div>`)[0];
+                popup_c65f1e8789667e768de16c78085105f2.setContent(html_05aa14f3eb92112b77c6af626b8d2371);
+            
+        
+
+        marker_4844d60872f71bc663c88e671e24ea49.bindPopup(popup_c65f1e8789667e768de16c78085105f2)
+        ;
+
+        
+    
+    
+            var marker_7d422a33a00814af5891f6b668e41418 = L.marker(
+                [37.0902, -95.7129],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_4d592bb814ec0b0103a80b54471a5827 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57d0d6695c51399ba0af3c5a2f79f1f2 = $(`<div id="html_57d0d6695c51399ba0af3c5a2f79f1f2" style="width: 100.0%; height: 100.0%;">CloudStorage Inc (Technology)<br>Tipo de ataque: Data_Exposure<br>Impacto financiero: $156.7M</div>`)[0];
+                popup_4d592bb814ec0b0103a80b54471a5827.setContent(html_57d0d6695c51399ba0af3c5a2f79f1f2);
+            
+        
+
+        marker_7d422a33a00814af5891f6b668e41418.bindPopup(popup_4d592bb814ec0b0103a80b54471a5827)
+        ;
+
+        
+    
+    
+            var marker_57f40124ee30cee141554c1627ba12f1 = L.marker(
+                [46.8182, 8.2275],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_108b742355a41948b14190a61dbaf1d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2dbe6341cae6297ccc9e022975f49c4e = $(`<div id="html_2dbe6341cae6297ccc9e022975f49c4e" style="width: 100.0%; height: 100.0%;">MedDevice Corp (Healthcare)<br>Tipo de ataque: Supply_Chain<br>Impacto financiero: $78.9M</div>`)[0];
+                popup_108b742355a41948b14190a61dbaf1d8.setContent(html_2dbe6341cae6297ccc9e022975f49c4e);
+            
+        
+
+        marker_57f40124ee30cee141554c1627ba12f1.bindPopup(popup_108b742355a41948b14190a61dbaf1d8)
+        ;
+
+        
+    
+    
+            var marker_9a912e9e4251477a5b3be593a321fb73 = L.marker(
+                [53.1424, -7.6921],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_f61e040a2408336db3415c3bfb5294a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ecb93a8392c85ad8b3e32f8245ca5b4 = $(`<div id="html_8ecb93a8392c85ad8b3e32f8245ca5b4" style="width: 100.0%; height: 100.0%;">SocialMedia Plus (Technology)<br>Tipo de ataque: Account_Takeover<br>Impacto financiero: $445.6M</div>`)[0];
+                popup_f61e040a2408336db3415c3bfb5294a5.setContent(html_8ecb93a8392c85ad8b3e32f8245ca5b4);
+            
+        
+
+        marker_9a912e9e4251477a5b3be593a321fb73.bindPopup(popup_f61e040a2408336db3415c3bfb5294a5)
+        ;
+
+        
+    
+    
+            var marker_943fc8e6f92ab5da4cbf0cb12208735c = L.marker(
+                [37.0902, -95.7129],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_00af42098117ba2e580271c27ca5ba94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89d524573e3703bb01c84f3a6b5ee3d8 = $(`<div id="html_89d524573e3703bb01c84f3a6b5ee3d8" style="width: 100.0%; height: 100.0%;">PowerUtility Co (Energy)<br>Tipo de ataque: OT_Attack<br>Impacto financiero: $567.8M</div>`)[0];
+                popup_00af42098117ba2e580271c27ca5ba94.setContent(html_89d524573e3703bb01c84f3a6b5ee3d8);
+            
+        
+
+        marker_943fc8e6f92ab5da4cbf0cb12208735c.bindPopup(popup_00af42098117ba2e580271c27ca5ba94)
+        ;
+
+        
+    
+    
+            var marker_8f5b095126f1763d2c9f142cf17ffcfc = L.marker(
+                [37.0902, -95.7129],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_16bac637af446ca05f1bd0165f851bf3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6804bb406f9af30113e92078f8c7e1bf = $(`<div id="html_6804bb406f9af30113e92078f8c7e1bf" style="width: 100.0%; height: 100.0%;">LegalFirm Partners (Legal)<br>Tipo de ataque: Email_Compromise<br>Impacto financiero: $23.4M</div>`)[0];
+                popup_16bac637af446ca05f1bd0165f851bf3.setContent(html_6804bb406f9af30113e92078f8c7e1bf);
+            
+        
+
+        marker_8f5b095126f1763d2c9f142cf17ffcfc.bindPopup(popup_16bac637af446ca05f1bd0165f851bf3)
+        ;
+
+        
+    
+    
+            var marker_fb31cf26b54b44b742c912485f2072af = L.marker(
+                [46.6034, 1.8883],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_6c6089fa3fa939bd8a901fa0b3ba680f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e1eb695e52fef6cd40569037ff13ddd = $(`<div id="html_7e1eb695e52fef6cd40569037ff13ddd" style="width: 100.0%; height: 100.0%;">AirlineGlobal (Transportation)<br>Tipo de ataque: Passenger_Data<br>Impacto financiero: $123.4M</div>`)[0];
+                popup_6c6089fa3fa939bd8a901fa0b3ba680f.setContent(html_7e1eb695e52fef6cd40569037ff13ddd);
+            
+        
+
+        marker_fb31cf26b54b44b742c912485f2072af.bindPopup(popup_6c6089fa3fa939bd8a901fa0b3ba680f)
+        ;
+
+        
+    
+    
+            var marker_1e52b786d578269a889d4f39767f5a95 = L.marker(
+                [1.3521, 103.8198],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_ca9f6266eeb55cc973104a21bfd8e134 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6ebcff023a6d93f96ceb9124e80b19c = $(`<div id="html_c6ebcff023a6d93f96ceb9124e80b19c" style="width: 100.0%; height: 100.0%;">CryptoExchange (Financial)<br>Tipo de ataque: Wallet_Hack<br>Impacto financiero: $456.7M</div>`)[0];
+                popup_ca9f6266eeb55cc973104a21bfd8e134.setContent(html_c6ebcff023a6d93f96ceb9124e80b19c);
+            
+        
+
+        marker_1e52b786d578269a889d4f39767f5a95.bindPopup(popup_ca9f6266eeb55cc973104a21bfd8e134)
+        ;
+
+        
+    
+    
+            var marker_0bfa309e47eedb0b953540502c7aa64c = L.marker(
+                [40.4637, -3.7492],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_4994b40ab13f3ac5bb8eaf0fd6529963 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_425609aba7d2b0320f299a09a5a08bee = $(`<div id="html_425609aba7d2b0320f299a09a5a08bee" style="width: 100.0%; height: 100.0%;">HotelChain Int (Hospitality)<br>Tipo de ataque: POS_Malware<br>Impacto financiero: $67.8M</div>`)[0];
+                popup_4994b40ab13f3ac5bb8eaf0fd6529963.setContent(html_425609aba7d2b0320f299a09a5a08bee);
+            
+        
+
+        marker_0bfa309e47eedb0b953540502c7aa64c.bindPopup(popup_4994b40ab13f3ac5bb8eaf0fd6529963)
+        ;
+
+        
+    
+    
+            var marker_1533970989d97d846944a739712ac939 = L.marker(
+                [37.0902, -95.7129],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_ef93a62ebbadec01d7dff183c7e76fd4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b744c9a6d7e69d1219572424b6902bde = $(`<div id="html_b744c9a6d7e69d1219572424b6902bde" style="width: 100.0%; height: 100.0%;">PharmaCorp (Pharmaceutical)<br>Tipo de ataque: Research_Theft<br>Impacto financiero: $234.5M</div>`)[0];
+                popup_ef93a62ebbadec01d7dff183c7e76fd4.setContent(html_b744c9a6d7e69d1219572424b6902bde);
+            
+        
+
+        marker_1533970989d97d846944a739712ac939.bindPopup(popup_ef93a62ebbadec01d7dff183c7e76fd4)
+        ;
+
+        
+    
+    
+            var marker_a11cb8ebc5805af0aa2796c7ed49203a = L.marker(
+                [52.1326, 5.2913],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_aca1af8822efd6d28ffd5dd2c3345cd1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4d176ffd3aa1fb493f74a344005e0f8 = $(`<div id="html_c4d176ffd3aa1fb493f74a344005e0f8" style="width: 100.0%; height: 100.0%;">SmartCity Tech (Government)<br>Tipo de ataque: IoT_Breach<br>Impacto financiero: $78.9M</div>`)[0];
+                popup_aca1af8822efd6d28ffd5dd2c3345cd1.setContent(html_c4d176ffd3aa1fb493f74a344005e0f8);
+            
+        
+
+        marker_a11cb8ebc5805af0aa2796c7ed49203a.bindPopup(popup_aca1af8822efd6d28ffd5dd2c3345cd1)
+        ;
+
+        
+    
+    
+            var marker_95631a8071e2a55604a3a19eada5a853 = L.marker(
+                [35.9078, 127.7669],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_9bd9c035e656a1e072926ab7d812b918 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69bafcee535aec6ed26f87d74e08e4e7 = $(`<div id="html_69bafcee535aec6ed26f87d74e08e4e7" style="width: 100.0%; height: 100.0%;">GameStudio Pro (Entertainment)<br>Tipo de ataque: Gaming_Hack<br>Impacto financiero: $89.7M</div>`)[0];
+                popup_9bd9c035e656a1e072926ab7d812b918.setContent(html_69bafcee535aec6ed26f87d74e08e4e7);
+            
+        
+
+        marker_95631a8071e2a55604a3a19eada5a853.bindPopup(popup_9bd9c035e656a1e072926ab7d812b918)
+        ;
+
+        
+    
+    
+            var marker_b968a35affa24980ca7d369d3d687ed1 = L.marker(
+                [37.0902, -95.7129],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_d599c19a7cd5e67ec301ccb463d1e2b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5f6c27ac97e8617d36650390434b9c6 = $(`<div id="html_e5f6c27ac97e8617d36650390434b9c6" style="width: 100.0%; height: 100.0%;">InsuranceMega (Insurance)<br>Tipo de ataque: Claims_Fraud<br>Impacto financiero: $156.8M</div>`)[0];
+                popup_d599c19a7cd5e67ec301ccb463d1e2b7.setContent(html_e5f6c27ac97e8617d36650390434b9c6);
+            
+        
+
+        marker_b968a35affa24980ca7d369d3d687ed1.bindPopup(popup_d599c19a7cd5e67ec301ccb463d1e2b7)
+        ;
+
+        
+    
+    
+            var marker_6a08e6018524a09e4940fb92dfe579ef = L.marker(
+                [-14.235, -51.9253],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_dd1150b39ff4e4f25d692450809aa00e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1024fafcf5e07be3a67af210beb579d = $(`<div id="html_c1024fafcf5e07be3a67af210beb579d" style="width: 100.0%; height: 100.0%;">TelecomGiant (Telecommunications)<br>Tipo de ataque: Network_Breach<br>Impacto financiero: $345.6M</div>`)[0];
+                popup_dd1150b39ff4e4f25d692450809aa00e.setContent(html_c1024fafcf5e07be3a67af210beb579d);
+            
+        
+
+        marker_6a08e6018524a09e4940fb92dfe579ef.bindPopup(popup_dd1150b39ff4e4f25d692450809aa00e)
+        ;
+
+        
+    
+    
+            var marker_9c749c71bce30abf2311a958c375f64b = L.marker(
+                [20.5937, 78.9629],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_ecab1a3b7b9ffb66f9d2e1113c2c0f19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52d0fe4d0a6b7e3181ba14e00532a38a = $(`<div id="html_52d0fe4d0a6b7e3181ba14e00532a38a" style="width: 100.0%; height: 100.0%;">FoodDelivery (Technology)<br>Tipo de ataque: App_Vulnerability<br>Impacto financiero: $67.9M</div>`)[0];
+                popup_ecab1a3b7b9ffb66f9d2e1113c2c0f19.setContent(html_52d0fe4d0a6b7e3181ba14e00532a38a);
+            
+        
+
+        marker_9c749c71bce30abf2311a958c375f64b.bindPopup(popup_ecab1a3b7b9ffb66f9d2e1113c2c0f19)
+        ;
+
+        
+    
+    
+            var marker_32d39e3b10f9cbe0cf1822d932e169ca = L.marker(
+                [51.1657, 10.4515],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_22da57855b663abf577eb1e93f71048a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_602d919b87ae2f3b940904f8d0dec5e7 = $(`<div id="html_602d919b87ae2f3b940904f8d0dec5e7" style="width: 100.0%; height: 100.0%;">AutomotiveTech (Automotive)<br>Tipo de ataque: Connected_Car<br>Impacto financiero: $234.6M</div>`)[0];
+                popup_22da57855b663abf577eb1e93f71048a.setContent(html_602d919b87ae2f3b940904f8d0dec5e7);
+            
+        
+
+        marker_32d39e3b10f9cbe0cf1822d932e169ca.bindPopup(popup_22da57855b663abf577eb1e93f71048a)
+        ;
+
+        
+    
+    
+            var marker_aa7e258c322594a2f8271110ab465e17 = L.marker(
+                [37.0902, -95.7129],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_5fe219f592c62f8d0e0cd4f9e388c312 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5791026c5b6d78587b40dae6931c6ab9 = $(`<div id="html_5791026c5b6d78587b40dae6931c6ab9" style="width: 100.0%; height: 100.0%;">RealEstate Pro (Real Estate)<br>Tipo de ataque: Property_Fraud<br>Impacto financiero: $34.5M</div>`)[0];
+                popup_5fe219f592c62f8d0e0cd4f9e388c312.setContent(html_5791026c5b6d78587b40dae6931c6ab9);
+            
+        
+
+        marker_aa7e258c322594a2f8271110ab465e17.bindPopup(popup_5fe219f592c62f8d0e0cd4f9e388c312)
+        ;
+
+        
+    
+    
+            var marker_d938ecde4dd27759b4415dc4cd558f9d = L.marker(
+                [37.0902, -95.7129],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_b539a69fef4d879903c61d214a55cfc7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6bc5ba9cba068483b8ad46aff92d9d3f = $(`<div id="html_6bc5ba9cba068483b8ad46aff92d9d3f" style="width: 100.0%; height: 100.0%;">StreamingCorp (Entertainment)<br>Tipo de ataque: Content_Piracy<br>Impacto financiero: $456.7M</div>`)[0];
+                popup_b539a69fef4d879903c61d214a55cfc7.setContent(html_6bc5ba9cba068483b8ad46aff92d9d3f);
+            
+        
+
+        marker_d938ecde4dd27759b4415dc4cd558f9d.bindPopup(popup_b539a69fef4d879903c61d214a55cfc7)
+        ;
+
+        
+    
+    
+            var marker_63a61ba87185a261657e13a624b29339 = L.marker(
+                [-25.2744, 133.7751],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_5ffebad715b382ed2844ed73247c6587 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47c7482bb6e9bb363c70126560d0d0ce = $(`<div id="html_47c7482bb6e9bb363c70126560d0d0ce" style="width: 100.0%; height: 100.0%;">AgriTech Solutions (Agriculture)<br>Tipo de ataque: Precision_Ag<br>Impacto financiero: $12.3M</div>`)[0];
+                popup_5ffebad715b382ed2844ed73247c6587.setContent(html_47c7482bb6e9bb363c70126560d0d0ce);
+            
+        
+
+        marker_63a61ba87185a261657e13a624b29339.bindPopup(popup_5ffebad715b382ed2844ed73247c6587)
+        ;
+
+        
+    
+    
+            var marker_2fd21ceaf81e776b2cacdfc1c0febaed = L.marker(
+                [55.3781, -3.436],
+                {
+}
+            ).addTo(marker_cluster_80566119965466c7c209856d8b9dd9a9);
+        
+    
+        var popup_a3057f1511c539b9a7cd9949356c0c14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19ab8b93c34ce14c0acaf9e001f3be8e = $(`<div id="html_19ab8b93c34ce14c0acaf9e001f3be8e" style="width: 100.0%; height: 100.0%;">FinTech Startup (Financial)<br>Tipo de ataque: API_Abuse<br>Impacto financiero: $78.9M</div>`)[0];
+                popup_a3057f1511c539b9a7cd9949356c0c14.setContent(html_19ab8b93c34ce14c0acaf9e001f3be8e);
+            
+        
+
+        marker_2fd21ceaf81e776b2cacdfc1c0febaed.bindPopup(popup_a3057f1511c539b9a7cd9949356c0c14)
+        ;
+
+        
+    
+    
+            marker_cluster_80566119965466c7c209856d8b9dd9a9.addTo(map_351c2534dbe21bba4c20869c24771b95);
+        
+</script>
+</html>
