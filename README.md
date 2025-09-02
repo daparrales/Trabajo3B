@@ -72,4 +72,5 @@ Se ha identificado correlación entre el monto del rescate y el tiempo de recupe
 ## 🌟 **7) Valor del análisis**
 Este estudio demuestra cómo la combinación de **datos internos de seguridad** y **resultados de incidentes** permite identificar patrones y tomar decisiones estratégicas que minimicen riesgos, pérdidas y daños reputacionales.
 
+
 🔐 **La ciberseguridad no es un gasto, es una inversión en la supervivencia de la empresa.**
