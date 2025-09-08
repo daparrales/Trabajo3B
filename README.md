@@ -42,16 +42,31 @@ Antes del análisis exploratorio se realizaron las siguientes etapas de procesam
 - **Distribución geográfica e industrial**:  
   Estados Unidos concentra la mayor cantidad de incidentes (8 casos) en múltiples sectores: tecnología, finanzas, salud, entre otros.  
 
+    ![Incidentes por país](images/incidentes_por_pais.png)  
+  *Figura 1. Distribución de incidentes por país en 2024.*  
+
 - **Correlaciones relevantes**:  
-  - *Impacto financiero:* correlaciona con `Records_Compromised` y `Response_Time_Hours`.  
-  - *Ransom_Amount_USD:* se relaciona con `Recovery_Time_Days`.  
+  - *Impacto financiero:* correlaciona con `Records_Compromised` y `Response_Time_Hours`. 
+
+  ![Impacto financiero vs Registros comprometidos](images/impacto_vs_registros.png)  
+    *Figura 2. Relación entre registros comprometidos y pérdidas financieras.* 
+
+  - *Ransom_Amount_USD:* se relaciona con `Recovery_Time_Days`. 
+
+  ![Monto del rescate vs Tiempo de recuperación](images/rescate_vs_recuperacion.png)  
+    *Figura 3. Un mayor monto de rescate suele alargar los tiempos de recuperación.*  
 
 - **Impacto en clientes y reputación**:  
   La pérdida de clientes (`Customer_Churn_Percent`) se incrementa cuando los tiempos de respuesta y recuperación son altos, afectando directamente los ingresos y sostenibilidad de la empresa.
 
-En una empresa, lo más crítico durante un ataque cibernético son los datos comprometidos y el tiempo de respuesta. Una fuga de información puede generar pérdida de clientes, afectar las finanzas, provocar despidos e incluso llevar a la quiebra.
+  ![Tiempo de respuesta vs Pérdida de clientes](images/respuesta_vs_clientes.png)  
+  *Figura 4. Relación entre tiempos de respuesta y pérdida de clientes.*  
 
-Se ha identificado correlación entre el monto del rescate y el tiempo de recuperación, siendo la relación más relevante entre `Ransom_Amount_USD` y `Recovery_Time_Days`. Esto ocurre porque los ciberdelincuentes exigen sumas elevadas, a menudo en criptomonedas o cuentas extranjeras, dificultando el rastreo. Tales incidentes no solo ponen en riesgo la estabilidad económica, sino también la confianza de los clientes en la protección de sus datos personales.
+  **Relación inversión–pérdidas**:  
+  Organizaciones con menor `Security_Budget_Million_USD` tienden a presentar mayor impacto financiero.  
+
+  ![Presupuesto en seguridad vs Impacto financiero](images/presupuesto_vs_impacto.png)  
+  *Figura 5. Inversión en seguridad vs pérdidas financieras.*  
 
 ## ✅ **5) Conclusiones**
 - **Tiempo y datos críticos**: La rapidez en responder a un ataque y la protección de datos de clientes son factores clave para evitar pérdidas financieras y de reputación.  
